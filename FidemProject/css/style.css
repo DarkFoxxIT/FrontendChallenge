@@ -1,0 +1,128 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+/**NAVBAR**/
+
+#logo{
+  width: 100px;
+  height: 100px;
+  position:relative;
+  bottom: 0px;
+}
+
+nav{
+  display: flex;
+  background-color: #4C6C0A;
+  height: 100px;
+  align-content: space-around;
+}
+
+.nav{
+  display: flex;
+  align-content: flex-end;
+}
+.nav__item--selected{
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+
+}
+.name-company{
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+  color:white;
+  position: relative;
+  top: 20px;
+  right: 50px;
+}
+
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color:#557571;
+}
+
+/**FORM**/
+.modal{
+  width: 200px;
+  padding: 50px;
+}
+input[type="text"]{
+  padding: 5px;
+  margin: 10px 0;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.form__label{
+  font-family: 'Poppins', sans-serif;
+}
+
+.form__input{
+  border-radius:10px;
+  border: 1px solid #eee;
+  transition: .3s border-color;
+}
+
+.form__input:hover{
+  border: 1px solid #aaa;
+}
+
+/*INFOBOX***/
+
+.info-box{
+  width: 400px;
+  height:350px;
+  position: relative;
+  top: 40px;
+  background-color: #f1f1e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  padding:20px;
+  border: 1px solid #c8d5b9;
+  margin-bottom: 20px;
+}
+
+.info-box__title{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.info-box__btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #68b0ab;
+    background-color: #68b0ab;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+
+/**FOOTER**/
+
+footer p{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.5;
+  font-size: 12px;
+}
